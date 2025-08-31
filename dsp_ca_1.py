@@ -511,3 +511,7 @@ modes_to_investigate = ['ECB', 'CBC', 'CFB']
 
 for mode in modes_to_investigate:
     investigate_mode(mode, secret_key, patterned_plaintext)
+
+
+with open(filename, "rb") as f:
+        file_data = f.read()
